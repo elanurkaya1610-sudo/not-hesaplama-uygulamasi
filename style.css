@@ -1,0 +1,87 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e9d5ff, #dbeafe);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kutu {
+    background-color: white;
+    width: 90%;
+    max-width: 420px;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #6d28d9;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin: 15px 0 8px;
+    color: #334155;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    border: 2px solid #ddd6fe;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #8b5cf6;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c3aed;
+}
+
+#sonuc {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #334155;
+}
+
+.basarili {
+    color: #16a34a;
+}
+
+.basarisiz {
+    color: #dc2626;
+}
